@@ -64,12 +64,19 @@ Include any test scripts or example inputs in the tests/ directory. To run a sim
 ## Code Structure
 
 langford.c
+
 main() parses arguments (-g, -v, -h).
+
 generate(n) implements backtracking to build sequences.
+
 validate(arr, len) checks spacing rules for a given array.
+
 Helper functions for memory management and I/O.
+
 Makefile (if provided)
+
 make all – compile
+
 make clean – remove binaries
 
 ## Contributing
@@ -77,7 +84,11 @@ make clean – remove binaries
 Contributions are welcome! Please:
 
 Fork the repository.
+
 Create a feature branch (git checkout -b feature/YourFeature).
+
 Commit your changes and push to your fork.
+
 Open a pull request describing your improvement.
+
 Please adhere to the existing code style and include tests for new functionality.
